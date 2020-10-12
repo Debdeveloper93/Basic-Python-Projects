@@ -1,0 +1,10 @@
+function SendemailRiskteam1() {
+    var ss = SpreadsheetApp.getActiveSpreadsheet();
+    var sheet = ss.getSheetByName("Sheet1");  
+    var values = sheet.getRange("i2:i").getValues();
+
+      if(values = 'Pending')
+{
+    MailApp.sendEmail('examplemail@mail.ru','Rummy Time Pending Cases Alerts','You have some pending complaints in the Rummytime Fraud Complaints Sheet');
+ }
+    }
