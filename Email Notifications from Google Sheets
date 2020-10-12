@@ -8,3 +8,4 @@ function SendemailRiskteam1() {
     MailApp.sendEmail('examplemail@mail.ru','Rummy Time Pending Cases Alerts','You have some pending complaints in the Rummytime Fraud Complaints Sheet');
  }
     }
+  
